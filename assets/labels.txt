@@ -1,0 +1,5 @@
+0 Mask
+1 No Mask
+2 Not Detecting Anyone
+3 Wrong use Mask
+4 Detecting Anyone
