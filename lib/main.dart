@@ -60,9 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             fileImage == null ? Container() : Image.file(fileImage),
             SizedBox(height: 16),
-            listOutputs != null
-                ? Text(
-              '${listOutputs[0]['label']}'.replaceAll(RegExp(r'[0-9]'), ''),
+            listOutputs.isNotEmpty ? Text('${listOutputs[0]['label']}'.replaceAll(RegExp(r'[0-9]'), ''),
               style: TextStyle(
                 fontSize: 20,
                 background: Paint()..color = Colors.white,
